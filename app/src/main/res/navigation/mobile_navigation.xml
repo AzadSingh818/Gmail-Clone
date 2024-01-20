@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gmail.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.gmail.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Notification"
+        android:name="com.example.gmail.ui.Notification.Notification"
+        android:label="@string/menu_Notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/nav_mail"
+        android:name="com.example.gmail.ui.Mail.Mail"
+        android:label="@string/menu_Mail"
+        tools:layout="@layout/fragment_mail" />
+    <fragment
+        android:id="@+id/nav_sent"
+        android:name="com.example.gmail.ui.Sent.Sent"
+        android:label="@string/menu_Sent"
+        tools:layout="@layout/fragment_sent" />
+    <fragment
+        android:id="@+id/nav_outbox"
+        android:name="com.example.gmail.ui.OutBox.OutBox"
+        android:label="@string/menu_OutBox"
+        tools:layout="@layout/fragment_out_box" />
+    <fragment
+        android:id="@+id/nav_Bin"
+        android:name="com.example.gmail.ui.Bin.Bin"
+        android:label="@string/menu_Bin"
+        tools:layout="@layout/fragment_bin" />
+    <fragment
+        android:id="@+id/nav_Share"
+        android:name="com.example.gmail.ui.Share.Share"
+        android:label="@string/menu_Share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_Contacts"
+        android:name="com.example.gmail.ui.Contacts.Contacts"
+        android:label="@string/menu_Contacts"
+        tools:layout="@layout/fragment_contacts" />
+</navigation>

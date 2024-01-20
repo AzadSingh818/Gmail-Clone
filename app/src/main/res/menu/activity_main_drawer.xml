@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_Notification"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/menu_Notification" />
+        <item
+            android:id="@+id/nav_mail"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/menu_Mail" />
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/menu_Sent" />
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@drawable/baseline_add_circle_outline_24"
+            android:title="@string/menu_OutBox" />
+        <item
+            android:id="@+id/nav_Bin"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_Bin" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="@string/menu_Share" />
+        <item
+            android:id="@+id/nav_Contacts"
+            android:icon="@drawable/outline_account_box_24"
+            android:title="@string/menu_Contacts" />
+    </group>
+</menu>
