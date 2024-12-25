@@ -57,12 +57,10 @@ Before running this project, make sure you have the following installed:
 5. The app should now be running on your device or emulator.
 
 📜 Scripts
+
    Build APK: Build the APK for release or debugging.
    ```bash
    ./gradlew assembleDebug
-
-
-
 
 
 
