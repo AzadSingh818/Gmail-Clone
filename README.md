@@ -40,4 +40,31 @@ Before running this project, make sure you have the following installed:
    ```bash
    git clone https://github.com/AzadSingh818/Gmail-Clone.git
    cd Gmail-Clone
+   
+2. Open the project in Android Studio:
+   Launch Android Studio and open the project directory.
+   
+3. Set up Firebase (if used):
+   Follow the official Firebase documentation to link
+   your project with Firebase for authentication and email handling: Firebase Setup.
+   
+4. Build and Run:
+   Connect your Android device or launch an emulator.
+   Click on the Run button in Android Studio or use the command.
+   ```bash
+   ./gradlew build
+
+5. The app should now be running on your device or emulator.
+
+📜 Scripts
+   Build APK: Build the APK for release or debugging.
+   ```bash
+   ./gradlew assembleDebug
+
+
+
+
+
+
+
 
