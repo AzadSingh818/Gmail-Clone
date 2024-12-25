@@ -58,6 +58,11 @@ Before running this project, make sure you have the following installed:
 
 📜 Scripts
 
-   Build APK: Build the APK for release or debugging.
+Build APK: Build the APK for release or debugging.
+   
    ```bash
    ./gradlew assembleDebug
+
+Run on Device: Run the app directly on an Android device or emulator:
+   ```bash
+   ./gradlew installDebug
