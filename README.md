@@ -103,45 +103,10 @@ Make sure to adjust the **Firebase** and **API** sections based on your implemen
 📜 Scripts
 Build APK: Build the APK for release or debugging.
 
-bash
-Copy code
+```bash
 ./gradlew assembleDebug
+
 Run on Device: Run the app directly on an Android device or emulator:
 
-bash
-Copy code
+```bash
 ./gradlew installDebug
-🤝 Contributing
-Contributions are welcome! Here's how you can contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -m 'Add new feature').
-Push to your branch (git push origin feature-name).
-Open a pull request.
-🛡 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-✨ Acknowledgments
-Firebase: For authentication, data storage, and backend services.
-Android Development Community: For resources and tutorials that made this project possible.
-Google: For providing the inspiration for this clone and modern app development practices.
-Enjoy using and contributing to the Gmail Clone Android App! 🎉
-
-markdown
-Copy code
-
-### Key Sections Updated:
-- **Live Demo**: Here, you could provide a link to an APK or mention how users can install the app on their devices.
-- **Tech Stack**: Now includes Android-specific tools like **Java/Kotlin**, **Firebase**, and **Retrofit/Volley**.
-- **Getting Started**: Provides Android Studio setup instructions and Firebase configuration.
-- **Installation**: Details on building the APK and running the app on an Android device or emulator.
-
-Make sure to adjust the **Firebase** and **API** sections based on your implementation, and update the repository URL accordingly!
-
-
-
-
-
-
-
