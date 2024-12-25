@@ -55,14 +55,3 @@ Before running this project, make sure you have the following installed:
    ./gradlew build
 
 5. The app should now be running on your device or emulator.
-
-📜 Scripts
-
-Build APK: Build the APK for release or debugging.
-   
-   ```bash
-   ./gradlew assembleDebug
-
-Run on Device: Run the app directly on an Android device or emulator:
-   ```bash
-   ./gradlew installDebug
