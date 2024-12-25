@@ -1,4 +1,4 @@
-# Gmail Clone (Android App)
+   # Gmail Clone (Android App)
 
 This is a **Gmail clone** built for Android using **Java** or **Kotlin** (depending on the codebase). The app replicates some of the core features of the **Gmail** app, such as viewing inbox emails, composing emails, and more. It’s designed to demonstrate Android development with modern tools and libraries.
 
@@ -105,8 +105,3 @@ Build APK: Build the APK for release or debugging.
 
 ```bash
 ./gradlew assembleDebug
-
-Run on Device: Run the app directly on an Android device or emulator:
-
-```bash
-./gradlew installDebug
