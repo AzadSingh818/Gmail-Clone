@@ -61,8 +61,3 @@ Before running this project, make sure you have the following installed:
    Build APK: Build the APK for release or debugging.
    ```bash
    ./gradlew assembleDebug
-
-
-
-
-
