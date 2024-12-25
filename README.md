@@ -56,19 +56,14 @@ Before running this project, make sure you have the following installed:
 
 5. The app should now be running on your device or emulator.
 
-📜 Scripts
+## 📜 Scripts
 
-Build APK: Build the APK for release or debugging.
-
-```bash
+## Build APK: Build the APK for release or debugging.
 ./gradlew assembleDebug
-Run on Device: Run the app directly on an Android device or emulator:
-
-```bash
-
+## Run on Device: Run the app directly on an Android device or emulator:
 ./gradlew installDebug
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Here's how you can contribute:
 
@@ -78,11 +73,11 @@ Commit your changes (git commit -m 'Add new feature').
 Push to your branch (git push origin feature-name).
 Open a pull request.
 
-🛡 License
+## 🛡 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-✨ Acknowledgments
+## ✨ Acknowledgments
 
 Firebase: For authentication, data storage, and backend services.
 Android Development Community: For resources and tutorials that made this project possible.
